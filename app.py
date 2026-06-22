@@ -111,7 +111,7 @@ def get_account_info():
 @app.route("/")
 def home():
     return jsonify({
-        "message": "API is running. Use: https://nullinfoapi.vercel.app/player-info?uid={uid}"
+        "message": "API is running. Use : https://nullinfoapi.vercel.app/player-info?uid={uid}"
     })
 
 @app.route('/refresh', methods=['GET', 'POST'])
